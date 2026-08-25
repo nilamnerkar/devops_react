@@ -1,12 +1,13 @@
 import { useRef, useState } from 'react'
 import './App.css'
 
-const topics = ['What is Git & Git Setup', 'Branching Strategies', 'Undoing Changes', 'Git Alias & Git Amend', 'Remote Operations', 'Advanced Commands', 'Git Copilot Integration', 'Hosting Static Websites', 'Hosting React Apps on Pages']
+const topics = ['What is Git & Git Setup', 'Branching Strategies', 'Git Alias & Git Amend', 'Remote Operations', 'Advanced Commands', 'Git Copilot Integration', 'Hosting Static Websites', 'Hosting React Apps on Pages']
 const students = [
-  { initials: 'AM', name: 'Alex Morgan', role: 'Frontend engineer' },
-  { initials: 'JL', name: 'Jamie Lee', role: 'Product designer' },
-  { initials: 'RK', name: 'Ravi Kumar', role: 'Cloud learner' },
-  { initials: 'SN', name: 'Sam Nguyen', role: 'Junior developer' },
+  { initials: 'AM', name: 'Nilam Nerkar', role: 'engineer' },
+  { initials: 'JL', name: 'Vaibhav More', role: 'engineer' },
+  { initials: 'RK', name: 'Swapnil Baviskar', role: 'engineer' },
+  { initials: 'SN', name: 'Ankush Nankar', role: 'engineer' },
+  { initials: 'SN', name: 'Manswi patil', role: 'engineer' },
 ]
 const branches = [
   { id: 'main', label: 'main', note: 'Production-ready code', color: 'green' },
